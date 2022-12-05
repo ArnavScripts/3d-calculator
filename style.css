@@ -1,0 +1,69 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #1b1e23;
+}
+h1{
+    font-family: Aldrich;
+    text-shadow: 0rem 0rem 2rem black;
+}
+.text{
+    color: #ff00e4;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.creator{
+    color: white;
+    font-size:1rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.numButton{
+    color: white;
+    background-color: black;
+}
+
+input{
+    color: white;
+    background-color: black;
+    border-width: 0rem;
+    border-color: black;
+    border-radius: 2rem;
+    width: 31rem;
+    height: 4rem;
+    margin: 1rem;
+    box-shadow: 0rem 0rem 2rem 0rem rgb(0,0,0);
+    font-family: Aldrich;
+    font-size: 2rem;
+    transition: 0.25s;
+}
+
+input:focus{
+    outline: none;
+    transition: 0.25s;
+    border: 0.25rem solid white;
+}
+
+button{
+    position: relative;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    transition: 0.25s;
+    font-family: Aldrich;
+    font-size: 2rem;
+    margin: 0.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 2rem 0rem rgb(0,0,0);
+}
+
+button:hover{
+    transition: 0.25s;
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0rem 5rem 5rem 0rem rgb(0,0,0);
+}
